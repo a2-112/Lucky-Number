@@ -89,7 +89,11 @@ Built with a mystical midnight palette:
 
 ```bash
 git clone https://github.com/a2-112/lucky-number.git
+<<<<<<< HEAD
 cd Lucky-Number
+=======
+cd Lucky-Number
+>>>>>>> 1541e50 (fixed mobile bug)
 open index.html
 ```
 
