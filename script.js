@@ -21,7 +21,7 @@ function validateInput() {
   const regex = /^[a-zA-Z]+ [a-zA-Z]+$/;
   const [first, second] = names.value.toLowerCase().split(" ");
 
-  if (!regex.test(names.value)) {
+  if (!regex.test(names.value.trim())) {
     errorMessage.removeAttribute("hidden");
     return;
   }
